@@ -1,3 +1,4 @@
+OBJECTIFS PROJET
 - creer une page de presentation d un group de musique NIRVANA "h1"
 - fond de page " image du fond d une piscine "
 - un titre " nom du groupe " "h2"
@@ -7,3 +8,14 @@
 - sous la photo et le listing des titres de chansons un descriptif de l album :
   annee sortie etc."a"
 - favicone avec le 'simle de nirvana'
+
+LE PLAN D ORGANISATION
+
+- creer le titre
+- metre fond ecran 
+- metre "h2"
+- ajouter la photo
+- ajouter "h3"
+- faire liste de chanson
+- article descitif album "article"
+- creer favicone
