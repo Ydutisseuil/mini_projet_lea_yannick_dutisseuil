@@ -11,11 +11,21 @@ OBJECTIFS PROJET
 
 LE PLAN D ORGANISATION
 
-- creer le titre
-- metre fond ecran 
-- metre "h2"
-- ajouter la photo
-- ajouter "h3"
-- faire liste de chanson
-- article descitif album "article"
-- creer favicone
+- je cree mon "index.html"
+- je donne un nom a mon projet "projet nirvana"
+- je cree mon "style.css"
+- je link mon fichier " style.css"
+- je cree mon "html"
+- je cree "mon reset"
+- je cree mes "font"
+
+header
+- je cree mon titre
+
+main
+- je recupere les "images" 
+- je cree des sections 
+  1 section avec photo 
+  2 section avec titre et listing chansons
+- 3 section dans lequel il y a un article de description de l album 
+  sous la photo et le listing
