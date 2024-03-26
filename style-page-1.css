@@ -1,0 +1,41 @@
+body { background-image:url(/images/rue.jpg)
+}
+h1 {
+    font-size:120px;
+    text-align: center;
+    height: 150px;
+    color: yellow;
+    
+}
+
+img{
+height: 550px;
+
+}
+
+ section div{
+
+    display: flex;
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    font-size: 25px;
+    box-sizing: 5px;
+    color:white;
+    background: rgba(128, 128, 128, 0.905);
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    background: rgba(128, 128, 128, 0.905);
+}
+
+
+
+
+
