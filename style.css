@@ -12,30 +12,30 @@ h1 {
     height: 150px;
 }
 
-.titre2{
+.titre2 {
     font-size:120px;
     text-align: center;
     height: 150px;
     color:rgba(200, 106, 106, 0.987);
 }
 
-img{
+img {
 height: 550px;
 }
 
-.photo2{
+.photo2 {
     height: 550px; 
 }
 
- section div{
+ section div {
     display: flex;
  }
 
-section.bloc2{
+section.bloc2 {
     display: flex;
 }
 
-.texte2{
+.texte2 {
     display: flex;
     flex-direction: column;
     margin: 5%;
@@ -46,19 +46,19 @@ section.bloc2{
     padding: 40px;
 }
 
-.bloc{
+.bloc {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bloc2{
+.bloc2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.texte{
+.texte {
     display: flex;
     flex-direction: column;
     margin: 5%;
@@ -69,17 +69,19 @@ section.bloc2{
     align-content: center;
 }
 
-.test{
+.test {
     display: flex;
     flex-direction: column;
     background:rgba(167, 167, 236, 0.716);
+    margin: 90px;
 } 
 
-.test2{
+.test2 {
     display: flex;
     flex-direction: column;
     color:white;
     background: rgba(128, 128, 128, 0.5);
+    margin: 90px;
 }
 
 /* Réinitialisation des styles */
@@ -150,7 +152,6 @@ section {
 .nav2 ul li a:hover {
     background-color: #555;
 }
-
 
 section {
     display: flex;
