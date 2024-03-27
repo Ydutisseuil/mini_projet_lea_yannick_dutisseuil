@@ -4,7 +4,7 @@ h1 {
     font-size:120px;
     text-align: center;
     height: 150px;
-    color: yellow;
+    color:rgba(200, 106, 106, 0.987);
     
 }
 
@@ -25,14 +25,47 @@ height: 550px;
     font-size: 25px;
     box-sizing: 5px;
     color:white;
-    background: rgba(128, 128, 128, 0.905);
+    background: rgba(128, 128, 128, 0.559);
 }
 
 .test{
     display: flex;
     flex-direction: column;
     color:white;
-    background: rgba(128, 128, 128, 0.905);
+    background: rgba(128, 128, 128, 0.559);
+}
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour la navigation */
+.nav {
+    background-color: #333333fd;
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background-color: #555;
 }
 
 
