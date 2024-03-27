@@ -1,4 +1,4 @@
-body { background-image:url(/images/rue.jpg)
+/*body { background-image:url(/images/rue.jpg)
 }
 h1 {
     font-size:120px;
@@ -14,9 +14,11 @@ height: 550px;
 }
 
  section div{
-
     display: flex;
 }
+
+
+
 
 .texte{
     display: flex;
@@ -35,14 +37,14 @@ height: 550px;
     background: rgba(128, 128, 128, 0.559);
 }
 /* Réinitialisation des styles */
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Style de base pour la navigation */
-.nav {
+/*.nav {
     background-color: #333333fd;
     padding: 10px 0;
 }
