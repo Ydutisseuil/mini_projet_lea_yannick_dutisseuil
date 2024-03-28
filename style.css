@@ -219,7 +219,7 @@ section {
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px; /* ajustez selon vos préférences */
+    max-width: 1500px; /* ajustez selon vos préférences */
     margin: 0 auto;
 }
   
@@ -239,7 +239,7 @@ section {
 }
   /* Style de base pour la navigation */
 .nav-video {
-    background-color: #333333;
+    background-color:green;
     padding: 10px 0;
 }
 
@@ -263,7 +263,9 @@ section {
 .nav-video ul li a:hover {
     background-color: #555;
 }
-
+.monsiteweb {
+    color: green;
+}
 
 
 
