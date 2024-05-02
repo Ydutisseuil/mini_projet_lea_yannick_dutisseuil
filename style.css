@@ -1,105 +1,107 @@
 body { 
     background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg) 
 }
-
+/* Styles pour la première section avec une image de fond spécifique */
 .background-page-1 { 
-    background-image:url("images/rue.jpg");
+    background-image:url("images/rue.jpg");/* Image de fond spécifique */
     
 }
-
+/* Styles pour la section d'accueil avec une couleur de fond burlywood */
 .background-page-accueil {
     background: burlywood;
 }
-
+/* Styles pour les titres de niveau 1 (h1) */
 h1 {
-    font-size:120px;
-    text-align: center;
-    height: 150px;
+    font-size:120px;/* Taille de la police */
+    text-align: center;/* Alignement au centre */
+    height: 150px; /* Hauteur fixe */
 }
-
+/* Styles pour les titres de niveau 2 avec une couleur personnalisée */
 .titre2 {
-    font-size:120px;
-    text-align: center;
-    height: 150px;
-    color:rgba(200, 106, 106, 0.987);
+    font-size:120px;/* Taille de la police */
+    text-align: center; /* Alignement au centre */
+    height: 150px; /* Hauteur fixe */
+    color:rgba(200, 106, 106, 0.987);/* Couleur du texte avec transparence */
 }
-
+/* Styles pour les images */
 img {
-height: 550px;
+height: 550px; /* Hauteur fixe pour toutes les images */
 }
-
+/* Styles spécifiques pour une classe photo2 */
 .photo2 {
-    height: 550px; 
+    height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
 }
 
  section div {
-    display: flex;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
  }
 
 section.bloc2 {
-    display: flex;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
 }
-
+/* Styles pour les blocs de texte */
 .texte2 {
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    font-size: 25px;
-    box-sizing: 5px;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
+    margin: 5%;/* Marge de 5% autour des éléments */
+    font-size: 25px;/* Taille de la police */
+    box-sizing: 5px; /* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
     color:white;
     background: rgba(128, 128, 128, 0.559);
     padding: 40px;
 }
-
+/* Styles pour les blocs génériques */
 .bloc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    justify-content: center;/* Centrer horizontalement le contenu */
+    align-items: center; /* Centrer verticalement le contenu */
 }
 
 .bloc2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    justify-content: center;/* Centrer horizontalement le contenu */
+    align-items: center;/* Centrer verticalement le contenu */
 }
+
 
 .bloc3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    justify-content: center;/* Centrer horizontalement le contenu */
+    align-items: center;/* Centrer verticalement le contenu */
 }
 
+/* Styles pour les blocs de texte */
 .texte {
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    font-size: 25px;
-    box-sizing: 5px;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
+    margin: 5%; /* Marge de 5% autour des éléments */
+    font-size: 25px;/* Taille de la police */
+    box-sizing: 5px;/* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
     background:rgba(167, 167, 236, 0.581);
     padding: 40px;
     align-content: center;
 }
 
 .test {
-    display: flex;
-    flex-direction: column;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
     background:rgba(167, 167, 236, 0.716);
-    margin: 90px;
+    margin: 90px;/* Marge de 90% autour des éléments */
 } 
 
 .test2 {
-    display: flex;
-    flex-direction: column;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
     color:white;
     background: rgba(128, 128, 128, 0.5);
-    margin: 90px;
+    margin: 90px;/* Marge de 90% autour des éléments */
 }
 
 .texte3 {
-    display: flex;
-    flex-direction: column;
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
     color:black;
-    margin: 90px;
+    margin: 90px;/* Marge de 90% autour des éléments */
     background: rgba(186, 182, 182, 0.434);
     text-align: center;
 }
@@ -113,67 +115,68 @@ section.bloc2 {
 
 /* Style de base pour la navigation */
 .nav {
-    background-color: #333333;
-    padding: 10px 0;
+    background-color: #333333;/* Couleur de fond */
+    padding: 10px 0;/* Rembourrage (padding) pour l'espace autour du contenu */
 }
 
 .nav ul {
-    list-style-type: none;
-    text-align: right;
+    list-style-type: none;/* Supprimer les puces des listes */
+    text-align: right;/* Alignement du texte à droite */
 }
 
 .nav ul li {
-    display: inline;
+    display: inline;/* Affichage en ligne pour les éléments de liste */
 }
 
 .nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: all 0.3s ease;
-    height: 80px;
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la décoration de lien par défaut */
+    padding: 10px 20px; /* Rembourrage (padding) pour l'espace autour du texte */
+    display: inline-block; /* Affichage en bloc pour les éléments de lien */
+    transition: all 0.3s ease;/* Effet de transition pour le survol */
+    height: 80px; /* Hauteur fixe pour les liens */
 }
 
 .nav ul li a:hover {
-    background-color: #555;
+    background-color: #555; /* Couleur de fond au survol */
+}
+/* Styles pour les sections de la page */
+section {
+    display: flex; /* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
+    justify-content: center; /* Centrer verticalement le contenu */
+
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    display: flex; /* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
+    justify-content: center; /* Centrer verticalement le contenu */
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex; /* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column; /* Organiser les éléments en colonnes */
+    justify-content: center; /* Centrer verticalement le contenu */
 }
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
+/* Styles pour les conteneurs vidéo */
 .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 1500px; /* ajustez selon vos préférences */
-    margin: 0 auto;
+    position: relative; /* Position relative pour les éléments enfants absolus */
+    width: 100%;/* Largeur de 100% */
+    max-width: 1500px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
 }
-  
+  /* Styles pour les conteneurs vidéo responsives */
 .video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
+    position: relative; /* Position relative pour les éléments enfants absolus */
+    padding-bottom: 56.25%;/* Rapport hauteur/largeur pour les vidéos 16:9 */
+    height: 0; /* Hauteur nulle */
+    overflow: hidden;/* Masquer le contenu qui dépasse */
 }
+
   
 .video-wrapper iframe {
-    position: absolute;
+    position: absolute;/* Position absolue pour les vidéos */
     top: 0;
     left: 0;
     width: 100%;
