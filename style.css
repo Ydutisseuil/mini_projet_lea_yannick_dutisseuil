@@ -3,7 +3,7 @@ body {
 }
 /* Styles pour la première section avec une image de fond spécifique */
 .background-page-1 { 
-    background-image:url("images/rue.jpg");/* Image de fond spécifique */
+    background-image:url("images/rue.jpg");/* Image de fond spécifique album bleach*/
     
 }
 /* Styles pour la section d'accueil avec une couleur de fond burlywood */
@@ -25,7 +25,7 @@ h1 {
 }
 /* Styles pour les images */
 img {
-height: 550px; /* Hauteur fixe pour toutes les images */
+height: 250px; /* Hauteur fixe pour toutes les images utero */
 }
 /* Styles spécifiques pour une classe photo2 */
 .photo2 {
@@ -55,12 +55,14 @@ section.bloc2 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     justify-content: center;/* Centrer horizontalement le contenu */
     align-items: center; /* Centrer verticalement le contenu */
+    flex-direction: row-reverse;/*inverse le contenu du bloc*/
 }
 
 .bloc2 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     justify-content: center;/* Centrer horizontalement le contenu */
     align-items: center;/* Centrer verticalement le contenu */
+    
 }
 
 
@@ -81,12 +83,32 @@ section.bloc2 {
     padding: 40px;
     align-content: center;
 }
+    /* Styles pour le lecteur audio */
+audio{
+    width: 200px; /* ajustez selon vos préférences */
+    margin: 10px;
+}
+  
+  /* Styles pour les contrôles du lecteur audio */
+/*audio::-webkit-media-controls-panel {
+    background-color: #f2f2f2fe; /* couleur de fond */
+  /*  border-radius: 10px; /* coins arrondis */
+/*} 
+audio::-webkit-media-controls-play-button {
+    color:red; /* couleur du bouton de lecture */
+/*}
+  
+audio::-webkit-media-controls-volume-slider {
+    background-color: #cccccc; /* couleur de la barre de volume */
+/*}*/
+  
+
 
 .test {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     background:rgba(167, 167, 236, 0.716);
-    margin: 90px;/* Marge de 90% autour des éléments */
+    margin:90px;/* Marge de 90% autour des éléments */
 } 
 
 .test2 {
@@ -121,7 +143,7 @@ section.bloc2 {
 
 .nav ul {
     list-style-type: none;/* Supprimer les puces des listes */
-    text-align: right;/* Alignement du texte à droite */
+    text-align: center;/* Alignement du texte au centre */
 }
 
 .nav ul li {
@@ -134,12 +156,14 @@ section.bloc2 {
     padding: 10px 20px; /* Rembourrage (padding) pour l'espace autour du texte */
     display: inline-block; /* Affichage en bloc pour les éléments de lien */
     transition: all 0.3s ease;/* Effet de transition pour le survol */
-    height: 80px; /* Hauteur fixe pour les liens */
+    height: 100px; /* Hauteur fixe pour les liens */
+    font-size: 50px;/* taille de police texte nav */
 }
 
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
 }
+
 /* Styles pour les sections de la page */
 section {
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
@@ -148,17 +172,20 @@ section {
 
 }
 
+/* Styles pour les sections de la page */
 section {
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     justify-content: center; /* Centrer verticalement le contenu */
 }
 
+/* Styles pour les sections de la page */
 section {
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     justify-content: center; /* Centrer verticalement le contenu */
 }
+
 /* Styles pour les conteneurs vidéo */
 .video-container {
     position: relative; /* Position relative pour les éléments enfants absolus */
