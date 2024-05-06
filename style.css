@@ -16,6 +16,16 @@ h1 {
     text-align: center;/* Alignement au centre */
     height: 150px; /* Hauteur fixe */
 }
+h2{
+    font-size:100px;/* Taille de la police */ 
+    height: 250px; /* Hauteur fixe */
+}
+h2.Description{
+    height: 50px; /* Hauteur fixe */
+    font-size:30px;/* Taille de la police */
+    width: 10px;
+}
+
 /* Styles pour les titres de niveau 2 avec une couleur personnalisée */
 .titre2 {
     font-size:120px;/* Taille de la police */
@@ -25,13 +35,17 @@ h1 {
 }
 /* Styles pour les images */
 img {
-height: 250px; /* Hauteur fixe pour toutes les images utero */
+    float: right; /* Déplace l'image vers la droite */
+    height: 250px; /* Hauteur fixe pour toutes les images utero */
+}
+.photo{
+    float: right; /* Déplace l'image vers la droite */
+    margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
 }
 /* Styles spécifiques pour une classe photo2 */
 .photo2 {
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
 }
-
  section div {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
  }
@@ -79,36 +93,39 @@ section.bloc2 {
     margin: 5%; /* Marge de 5% autour des éléments */
     font-size: 25px;/* Taille de la police */
     box-sizing: 5px;/* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
-    background:rgba(167, 167, 236, 0.581);
+    background:black;
     padding: 40px;
     align-content: center;
+    color: #fff;
+    width: 1250px;
 }
     /* Styles pour le lecteur audio */
 audio{
     width: 200px; /* ajustez selon vos préférences */
     margin: 10px;
 }
-  
-  /* Styles pour les contrôles du lecteur audio */
-/*audio::-webkit-media-controls-panel {
-    background-color: #f2f2f2fe; /* couleur de fond */
-  /*  border-radius: 10px; /* coins arrondis */
-/*} 
-audio::-webkit-media-controls-play-button {
-    color:red; /* couleur du bouton de lecture */
-/*}
-  
-audio::-webkit-media-controls-volume-slider {
-    background-color: #cccccc; /* couleur de la barre de volume */
-/*}*/
-  
 
-
+.liste-audio {
+   /* list-style-type: none; /* Supprimez les puces de la liste */
+    padding: 0; /* Supprimez les marges intérieures de la liste */
+}
+.lecteur-audio{
+    display: flex;/* Utilisez flexbox pour aligner les éléments */
+    align-items: center;/* Alignez verticalement les éléments */
+}
+.lecteur-audio audio {
+    margin-right: 10px; /* Ajoutez un espacement entre le lecteur audio et le texte */
+}
+.liste-audio li {
+    margin-bottom: 10px; /* Ajoutez un espacement entre chaque élément de la liste */
+}
+  
 .test {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     background:rgba(167, 167, 236, 0.716);
     margin:90px;/* Marge de 90% autour des éléments */
+    
 } 
 
 .test2 {
