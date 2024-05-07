@@ -15,7 +15,7 @@ h1 {
     font-size:120px;/* Taille de la police */
     text-align: center;/* Alignement au centre */
     height: 150px; /* Hauteur fixe */
-    margin-top: 5%;
+    margin-top: 5%;/* Ajoute une marge de 5% en haut de la balise h1 */
 }
 h2{
     font-size:100px;/* Taille de la police */ 
@@ -38,13 +38,13 @@ h2.album-in-utero{
 h2.Description{
     height: 50px; /* Hauteur fixe */
     font-size:30px;/* Taille de la police */
-    width: 10px;
+    width: 10px;/* Largeure */
     color: #fff;
 }
 h2.biographie{
     height: 50px; /* Hauteur fixe */
     font-size:30px;/* Taille de la police */
-    width: 10px;
+    width: 10px;/* Largeure */
 }
 
 /* Styles pour les titres de niveau 2 avec une couleur personnalisée */
@@ -58,24 +58,20 @@ h2.biographie{
 img {
     float: right; /* Déplace l'image vers la droite */
     height: 250px; /* Hauteur fixe pour toutes les images utero */
-    /*border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    filter: drop-shadow(0 0 0.75rem crimson);*/
+    
 }
 img.in-utero{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    width: 200px;/* Largeur */
+    height: 200px;/*hauteur*/
     filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
 img.garcon{
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    width: 400px;/* Largeur */
+    height: 400px;/*hauteur*/
 }
     
-
 .photo{
     float: right; /* Déplace l'image vers la droite */
     margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
@@ -117,7 +113,6 @@ section.bloc2 {
     
 }
 
-
 .bloc3 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     justify-content: center;/* Centrer horizontalement le contenu */
@@ -132,16 +127,16 @@ section.bloc2 {
     font-size: 25px;/* Taille de la police */
     box-sizing: 5px;/* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
     background:black;
-    padding: 40px;
-    align-content: center;
+    padding: 40px;/* Ajoute un remplissage de 40 pixels autour des éléments */
+    align-content: center;/* Centre le contenu verticalement */
     color: #fff;
-    width: 1250px;
-    /*margin-bottom: 20px; /* Réduire la marge basse à 20 pixels */
+    width: 1250px; /* Définit la largeur de l'élément à 1250 pixels */
+    
 }
     /* Styles pour le lecteur audio */
 audio{
-    width: 200px; /* ajustez selon vos préférences */
-    margin: 10px;
+    width: 200px; /* ajustez selon vos préférences Largeur */
+    margin: 10px;/* Ajoute une marge de 10 pixels autour de l'élément audio */
     background-color:red;
 }
 
@@ -166,7 +161,7 @@ audio{
     margin:90px;/* Marge de 90% autour des éléments */
     color: #fff;
     padding: 40px;/* Supprimez les marges intérieures */
-    width: 1250px;
+    width: 1250px;/*hauteur*/
     margin: 90px auto; /* Remplacez la marge gauche et droite par "auto" */
 }
 
@@ -177,8 +172,8 @@ audio{
     color:white;
     background: rgba(128, 128, 128, 0.5);
     padding: 40px;/* Supprimez les marges intérieures */
-    width: 1250px;
-    height: 300px;
+    width: 1250px;/* Largeure */
+    height: 300px;/*hauteur*/
     margin: 90px auto;/* Marge de 90% autour des éléments */
 }
 
@@ -189,16 +184,16 @@ audio{
     margin: 90px;/* Marge de 90% autour des éléments */
     background: rgba(186, 182, 182, 0.434);
     padding: 40px;/* Supprimez les marges intérieures */
-    width: 1200px;
-    height: 450px;
+    width: 1200px;/* Largeure */
+    height: 450px;/*hauteur*/
     margin: 90px auto;/* Marge de 90% autour des éléments */
 }
 
 /* Réinitialisation des styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;/* Remise à zéro de la marge de tous les éléments */
+    padding: 0; /* Remise à zéro du remplissage de tous les éléments */
+    box-sizing: border-box; /* Spécifie que la largeur et la hauteur incluent le remplissage et la bordure, mais pas la marge */
 }
 
 /* Style de base pour la navigation */
@@ -270,23 +265,23 @@ section {
   
 .video-wrapper iframe {
     position: absolute;/* Position absolue pour les vidéos */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0;/* Alignement au bord supérieur */
+    left: 0;/* Alignement au bord gauche */
+    width: 100%;/*largeur*/
+    height: 100%;/*hauteur*/
 }
  
 .monsiteweb {
-    color: white;
-    margin: 20px;
+    color: white;/* Texte en blanc */
+    margin: 20px;/* Marge de 20 pixels tout autour */
 }
 
 footer {
-    text-align: center;
-    margin: 20px;
+    text-align: center;/* Centre le texte */
+    margin: 20px;/* Marge de 20 pixels tout autour */
 }
 
 .blanc {
-    color:white;
-    margin: 20px;
+    color:white;/* Texte en blanc */
+    margin: 20px; /* Marge de 20 pixels tout autour */
 }
