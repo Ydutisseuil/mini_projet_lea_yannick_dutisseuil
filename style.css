@@ -15,12 +15,33 @@ h1 {
     font-size:120px;/* Taille de la police */
     text-align: center;/* Alignement au centre */
     height: 150px; /* Hauteur fixe */
+    margin-top: 5%;
 }
 h2{
     font-size:100px;/* Taille de la police */ 
     height: 250px; /* Hauteur fixe */
+    /*border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+   /* padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
+   /* border-radius: 5px; /* Arrondit les coins de la bordure */
+    /*height:150px; /* Hauteur fixe */
+    /*width:900px; /* Largeure */
+    /*text-align: center;/* Alignement au centre */
+}
+h2.album-in-utero{
+    border-radius: 5px; /* Arrondit les coins de la bordure */
+    height:150px; /* Hauteur fixe */
+    width:900px; /* Largeure */
+    text-align: center;/* Alignement au centre */
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
 }
 h2.Description{
+    height: 50px; /* Hauteur fixe */
+    font-size:30px;/* Taille de la police */
+    width: 10px;
+    color: #fff;
+}
+h2.biographie{
     height: 50px; /* Hauteur fixe */
     font-size:30px;/* Taille de la police */
     width: 10px;
@@ -37,7 +58,24 @@ h2.Description{
 img {
     float: right; /* Déplace l'image vers la droite */
     height: 250px; /* Hauteur fixe pour toutes les images utero */
+    /*border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 0 0.75rem crimson);*/
 }
+img.in-utero{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+}
+img.garcon{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+    
+
 .photo{
     float: right; /* Déplace l'image vers la droite */
     margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
@@ -98,11 +136,13 @@ section.bloc2 {
     align-content: center;
     color: #fff;
     width: 1250px;
+    /*margin-bottom: 20px; /* Réduire la marge basse à 20 pixels */
 }
     /* Styles pour le lecteur audio */
 audio{
     width: 200px; /* ajustez selon vos préférences */
     margin: 10px;
+    background-color:red;
 }
 
 .liste-audio {
@@ -114,26 +154,32 @@ audio{
     align-items: center;/* Alignez verticalement les éléments */
 }
 .lecteur-audio audio {
-    margin-right: 10px; /* Ajoutez un espacement entre le lecteur audio et le texte */
+    margin-right: 120px; /* Ajoutez un espacement entre le lecteur audio et le texte */
 }
 .liste-audio li {
     margin-bottom: 10px; /* Ajoutez un espacement entre chaque élément de la liste */
 }
-  
 .test {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
-    background:rgba(167, 167, 236, 0.716);
+    background:black;
     margin:90px;/* Marge de 90% autour des éléments */
-    
-} 
+    color: #fff;
+    padding: 40px;/* Supprimez les marges intérieures */
+    width: 1250px;
+    margin: 90px auto; /* Remplacez la marge gauche et droite par "auto" */
+}
+
 
 .test2 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     color:white;
     background: rgba(128, 128, 128, 0.5);
-    margin: 90px;/* Marge de 90% autour des éléments */
+    padding: 40px;/* Supprimez les marges intérieures */
+    width: 1250px;
+    height: 300px;
+    margin: 90px auto;/* Marge de 90% autour des éléments */
 }
 
 .texte3 {
@@ -142,7 +188,10 @@ audio{
     color:black;
     margin: 90px;/* Marge de 90% autour des éléments */
     background: rgba(186, 182, 182, 0.434);
-    text-align: center;
+    padding: 40px;/* Supprimez les marges intérieures */
+    width: 1200px;
+    height: 450px;
+    margin: 90px auto;/* Marge de 90% autour des éléments */
 }
 
 /* Réinitialisation des styles */
