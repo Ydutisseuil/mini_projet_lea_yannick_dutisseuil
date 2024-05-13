@@ -20,12 +20,14 @@ h1 {
 h2{
     font-size:100px;/* Taille de la police */ 
     height: 250px; /* Hauteur fixe */
-    /*border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
-   /* padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
-   /* border-radius: 5px; /* Arrondit les coins de la bordure */
-    /*height:150px; /* Hauteur fixe */
-    /*width:900px; /* Largeure */
-    /*text-align: center;/* Alignement au centre */
+}
+h2.album-bleach{
+    border-radius: 5px; /* Arrondit les coins de la bordure */
+    height:150px; /* Hauteur fixe */
+    width:900px; /* Largeure */
+    text-align: center;/* Alignement au centre */
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
 }
 h2.album-in-utero{
     border-radius: 5px; /* Arrondit les coins de la bordure */
@@ -36,6 +38,12 @@ h2.album-in-utero{
     padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
 }
 h2.Description{
+    height: 50px; /* Hauteur fixe */
+    font-size:30px;/* Taille de la police */
+    width: 10px;/* Largeure */
+    color: #fff;
+}
+h2.Description2{
     height: 50px; /* Hauteur fixe */
     font-size:30px;/* Taille de la police */
     width: 10px;/* Largeure */
@@ -58,7 +66,12 @@ h2.biographie{
 img {
     float: right; /* Déplace l'image vers la droite */
     height: 250px; /* Hauteur fixe pour toutes les images utero */
-    
+}
+img.Nirvana-Bleach{
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    width: 200px;/* Largeur */
+    height: 200px;/*hauteur*/
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
 img.in-utero{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
@@ -79,6 +92,8 @@ img.garcon{
 /* Styles spécifiques pour une classe photo2 */
 .photo2 {
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
+    float: right; /* Déplace l'image vers la droite */
+    margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
 }
  section div {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
@@ -95,8 +110,11 @@ section.bloc2 {
     font-size: 25px;/* Taille de la police */
     box-sizing: 5px; /* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
     color:white;
-    background: rgba(128, 128, 128, 0.559);
-    padding: 40px;
+    background:black;
+    padding: 40px;/* Ajoute un remplissage de 40 pixels autour des éléments */
+    align-content: center;/* Centre le contenu verticalement */
+    width: 1250px; /* Définit la largeur de l'élément à 1250 pixels */
+    height: 1145px;
 }
 /* Styles pour les blocs génériques */
 .bloc {
@@ -110,7 +128,7 @@ section.bloc2 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     justify-content: center;/* Centrer horizontalement le contenu */
     align-items: center;/* Centrer verticalement le contenu */
-    
+    flex-direction: row-reverse;/*inverse le contenu du bloc*/
 }
 
 .bloc3 {
@@ -170,11 +188,12 @@ audio{
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     color:white;
-    background: rgba(128, 128, 128, 0.5);
+    background:black;
     padding: 40px;/* Supprimez les marges intérieures */
     width: 1250px;/* Largeure */
-    height: 300px;/*hauteur*/
+    height: 200px;/*hauteur*/
     margin: 90px auto;/* Marge de 90% autour des éléments */
+    
 }
 
 .texte3 {
