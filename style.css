@@ -98,6 +98,14 @@ img.garcon{
     width: 400px;/* Largeur */
     height: 400px;/*hauteur*/
     filter: drop-shadow(0 0 0.75rem red);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+img.garcon:hover{
+    transform:rotate3d(0,1,0,180deg);
 }
     
 .photo{
