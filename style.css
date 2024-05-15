@@ -86,12 +86,29 @@ img.Nirvana-Bleach{
     width: 200px;/* Largeur */
     height: 200px;/*hauteur*/
     filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
+img.Nirvana-Bleach:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
+
 img.in-utero{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
     width: 200px;/* Largeur */
     height: 200px;/*hauteur*/
     filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+img.in-utero:hover{
+    transform:rotate3d(0,1,0,180deg);
 }
 img.garcon{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
@@ -248,15 +265,24 @@ audio{
 .nav {
     background-color: #333333;/* Couleur de fond */
     padding: 10px 0;/* Rembourrage (padding) pour l'espace autour du contenu */
+    text-align: center; /* Alignement du texte au centre */
+}
+.nav .logo-container {
+    text-align: center; /* Centre le contenu du conteneur du logo */
+    margin-bottom: 10px; /* Espace entre le logo et les liens de navigation */
 }
 
 .nav ul {
     list-style-type: none;/* Supprimer les puces des listes */
-    text-align: center;/* Alignement du texte au centre */
+    /*text-align: center;/* Alignement du texte au centre */
+    padding: 0; /* Enlever le padding par défaut */
+    margin: 0; /* Enlever la marge par défaut */
 }
 
 .nav ul li {
-    display: inline;/* Affichage en ligne pour les éléments de liste */
+   /* display: inline;/* Affichage en ligne pour les éléments de liste */
+   display: inline-block; /* Affichage en bloc en ligne pour les éléments de liste */
+   margin: 0 10px; /* Marges entre les éléments de liste */
 }
 
 .nav ul li a {
@@ -265,13 +291,20 @@ audio{
     padding: 10px 20px; /* Rembourrage (padding) pour l'espace autour du texte */
     display: inline-block; /* Affichage en bloc pour les éléments de lien */
     transition: all 0.3s ease;/* Effet de transition pour le survol */
-    height: 100px; /* Hauteur fixe pour les liens */
-    font-size: 50px;/* taille de police texte nav */
+    font-size: 20px;/* taille de police texte nav */
     text-shadow: 1px 1px 2px red;
 }
-
+img.logo_accueil{
+    height: 40px;
+    margin:20px;
+    
+}
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
+}
+.logo {
+    height: 50px; /* Hauteur fixe pour le logo */
+    width: auto; /* Largeur automatique pour garder les proportions */
 }
 
 /* Styles pour les sections de la page */

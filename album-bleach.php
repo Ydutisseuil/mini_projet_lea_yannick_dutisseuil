@@ -43,6 +43,11 @@ mysqli_close($connexion);
 </head>
 <body class="background-page-1">
     <nav class="nav">
+        <div class="logo-container">
+                <a href="index.html">
+                    <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
+                </a>
+        </div>
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="album-in-utero.html">Nirvana in utero</a></li>
