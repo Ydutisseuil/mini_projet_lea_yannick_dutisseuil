@@ -297,7 +297,8 @@ audio{
 img.logo_accueil{
     height: 40px;
     margin:20px;
-    
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
