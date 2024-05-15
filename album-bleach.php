@@ -68,11 +68,9 @@ mysqli_close($connexion);
                         <?php
                             if ($resultat->num_rows > 0) {
                                 foreach($resultat as $chanson){
-                                    echo '<li> 
+                                    echo '<li>                                        
                                             <div class="lecteur-audio">
-                                                <audio controls>
-                                                    <source src="'. $chanson["url"] .'" type="audio/mpeg">
-                                                </audio>  
+                                                <audio controls src="'. $chanson["url"] .'"></audio>  
                                                 <p style="text-decoration: underline;">'. $chanson["titre"] .'</p>
                                             </div>
                                         </li>';
