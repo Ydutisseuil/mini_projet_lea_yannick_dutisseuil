@@ -53,6 +53,7 @@ mysqli_close($connexion);
             <li><a href="album-in-utero.html">Nirvana in utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
             <li><a href="clip-video.html">video</a></li>
+            <li><a href="Discographie.html">Discographie</a></li>
         </ul>
     </nav>
     <header>
