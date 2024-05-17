@@ -8,36 +8,131 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
 </head>
-<body>
-    <nav class="nav">
-        <div class="logo-container">
-            <a href="index.html">
-                <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
-            </a>
-        </div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="album-in-utero.html">Nirvana in utero</a></li>
-            <li><a href="album-bleach.html">Nirvana Bleach</a></li>
-            <li><a href="clip-video.html">video</a></li>
-            <li><a href="discographie.html">Discographie</a></li>
-        </ul>
-    </nav>
-    <header>
+<body class="background-discographie">
+    <header class="container">
+        <nav class="nav">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="album-in-utero.html">Nirvana in utero</a></li>
+                <li><a href="album-bleach.html">Nirvana Bleach</a></li>
+                <li><a href="clip-video.html">video</a></li>
+                <li><a href="discographie.html">Discographie</a></li>
+            </ul>
+        </nav>
         <h1 class="titre4">DISCOGRAPHIE</h1>
     </header>
-        <section>
-            <div class="bloc4">
+    <main>
+        <div class="container">
+            <section class="albums-section";>
                 <div class="photo4">
-                    <img src="images/incesticide.jpg"alt="photo ">
-                    <img src="images/nevermind.jpg"alt="photo ">
-                    <img src="images/nirvana_black.png"alt="photo ">
-                    <img src="images/unplugged.jpg"alt="photo ">
-                    <img src="https://m.media-amazon.com/images/I/71eLqPemDvS._UF1000,1000_QL80_.jpg" alt="photo untero">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Nirvana-Bleach.jpg "alt="photo ">
+                    <div class="image-text">
+                        <img src="images/incesticide.jpg"alt="image">
+                        <p>
+                            Sortie	14 décembre 1992
+                            Enregistré	1988-1991
+                            Durée	44:44
+                            Genre	Grunge
+                        </p>
+                    </div>
+                    <div class="image-text">
+                        <img src="images/nevermind.jpg"alt="photo ">
+                        <p>
+                            Sortie	24 septembre 1991
+                            Enregistré	2-19 mai 1991
+                            Studios Sound City, Van Nuys
+                            Durée	42:38
+                            Genre	Grunge, rock alternatif
+                        </p>
+                    </div>
+                    <div class="image-text">
+                        <img src="images/nirvana_black.png"alt="photo ">
+                        <p>
+                            Sortie	29 octobre 2002
+                            Enregistré	1988-1994
+                            Durée	54:46
+                            Genre	Grunge
+                        </p>
+                    </div>
+                    <div class="image-text">
+                        <img src="images/unplugged.jpg"alt="photo ">
+                            <p>
+                            Sortie	1er novembre 1994 (CD)
+                            20 novembre 2007 (DVD)
+                            Enregistré	18 novembre 1993
+                            Studios Sony Music, New York Drapeau des États-Unis États-Unis
+                            Durée	53:50
+                            Genre	Rock alternatif
+                        </p>
+                    </div>
+                    <div class="image-text">
+                        <img src="https://m.media-amazon.com/images/I/71eLqPemDvS._UF1000,1000_QL80_.jpg" alt="photo untero">
+                        <p>
+                            Sortie	 13 septembre 1993
+                            21 septembre 1993
+                            Enregistré	13-26 février 1993
+                            Studio Pachyderm, Cannon Falls (Minnesota), Drapeau des États-Unis États-Unis
+                            Durée	41:11
+                            Genre	Grunge, rock altern
+                        </p>
+                    </div>
+                    <div class="image-text">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Nirvana-Bleach.jpg "alt="photo ">
+                        <p>
+                            Sortie	15 juin 1989
+                            Enregistré	24, 29, 30 et 31 décembre 1988
+                            14 et 24 janvier 1989
+                            Reciprocal Recording, Seattle Drapeau des États-Unis États-Unis
+                            Durée	42:38
+                            Genre	Grunge, Rock indépendant, Punk Rock
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-    <main>
+    </div>
+          <!-- Formulaire -->
+          <section class="formulaire">
+            <div class="container-formulaire">
+                <form action="traitement.php" method="post">
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="nom"><br>
+
+                    <label for="prenom">Prénom :</label><br>
+                    <input type="text" id="prenom" name="prenom"><br>
+
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label>temps ecoute de musique par jours:</label><br>
+                    <input type="checkbox" id="+12h par jours" name="+12h par jours" value="+12h par jours">
+                    <label for="+12h par jours">+12h par jours</label><br>
+
+                    <input type="checkbox" id="+6h par jours" name="+6h par jours" value="+6h par jours">
+                    <label for="+6h par jours">+6h par jours</label><br>
+
+                    <input type="checkbox" id="-3h par jours" name="-3h par jours" value="-3h par jours">
+                    <label for="-3h par jours">-3h par jours</label><br>
+
+                    <input type="checkbox" id="-1h par jours" name="-1h par jours" value="-1h par jours">
+                    <label for="-1h par jours">-1h par jours</label><br>
+
+                    <input type="checkbox" id="-1h par semaine" name="-1h par semaine" value="-1h par semaine">
+                    <label for="-1h par semaine">-1h par semaine</label><br><br>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            
+            </div>
+    </main>
+    <footer class="blanc">
+        <p>
+            © 2024 Site-crée-par-Dutisseuil-Yannick
+        </p>
+    </footer>
 </body>
 </html>

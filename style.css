@@ -13,6 +13,13 @@ body {
     background-image:url("images/87f447a87044a7b2d30ea5f460fecb46.jpg");
    
 }
+/* Styles pour la page discographie avec l'image poubelle */
+.background-discographie{
+    background-image:url("images/poubelle.jpg") ;
+    background-size: cover; /* S'assure que l'image couvre toute la page */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
 /* Styles pour les titres de niveau 1 (h1) */
 h1 {
     font-size:120px;/* Taille de la police */
@@ -134,6 +141,51 @@ img.garcon:hover{
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
     float: right; /* Déplace l'image vers la droite */
     margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
+}
+
+.photo4{
+    display: flex;
+    flex-direction: column; /* Arrange les images en colonne */
+    align-items: center; /* Centre les images dans la colonne */
+}
+.photo4 img {
+    margin: 10px; /* Marge de 2px autour de chaque image */
+    width: 300px; /* Largeur fixe pour toutes les images */
+    height: 300px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
+    margin-left: 110px; 
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+
+}
+.image-text {
+    display: flex; /* Arrange l'image et le texte en ligne */
+    align-items: center; /* Aligne l'image et le texte au centre verticalement */
+    margin: 2px 0; /* Marge autour de chaque ensemble image-texte */
+     
+}
+
+.image-text img {
+    margin-right: 60px; /* Espace entre l'image et le texte */
+    width: 200px; /* Largeur fixe pour toutes les images */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
+    
+}
+.image-text p {
+    font-size: 16px; /* Taille de la police du texte */
+    color:blanchedalmond; /* Couleur du texte */
+    margin: 0; /* Supprime la marge par défaut du paragraphe */
+    max-width: 300px; /* Ajustez la largeur selon vos besoins */
+    background-color:rgba(55, 44, 44, 0.683) ;
+    width: 300px; 
+    height: 200px; 
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    text-align: center; /* Pour centrer le texte horizontalement */
+    border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+
 }
  section div {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
@@ -370,3 +422,18 @@ footer {
     color:white;/* Texte en blanc */
     margin: 20px; /* Marge de 20 pixels tout autour */
 }
+
+.container-formulaire{
+    margin: 50px;
+    padding: 50px; /* Retirer le padding */
+    background-color:grey ;
+    width: 15%;
+    height: 50%;
+   
+}
+.formulaire{
+    display: flex;
+}
+
+
+
