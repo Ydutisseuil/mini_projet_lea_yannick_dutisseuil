@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
 </head>
-<body class="background-discographie">
-    <header class="container">
-        <nav class="nav">
-            <div class="logo-container">
-                <a href="index.html">
-                    <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
-                </a>
-            </div>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="album-in-utero.html">Nirvana in utero</a></li>
-                <li><a href="album-bleach.html">Nirvana Bleach</a></li>
-                <li><a href="clip-video.html">video</a></li>
-                <li><a href="discographie.html">Discographie</a></li>
-            </ul>
-        </nav>
-        <h1 class="titre4">DISCOGRAPHIE</h1>
+<body class="background-poubelle">
+    <nav class="nav">
+        <div class="logo-container">
+            <a href="index.php">
+                <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="album-in-utero.php">Nirvana in utero</a></li>
+            <li><a href="album-bleach.php">Nirvana Bleach</a></li>
+            <li><a href="clip-video.php">video</a></li>
+            <li><a href="discographie.php">Discographie</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>DISCOGRAPHIE</h1>
     </header>
     <main>
         <div class="container">
@@ -92,42 +92,36 @@
                         </p>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
-          <!-- Formulaire -->
-          <section class="formulaire">
-            <div class="container-formulaire">
-                <form action="traitement.php" method="post">
-                    <label for="nom">Nom :</label><br>
-                    <input type="text" id="nom" name="nom"><br>
+            </section>
+            <!-- </div> -->
+            <!-- Formulaire -->
+            <section class="formulaire">
+                <div class="container-formulaire">
+                    <form action="traitement.php" method="post">
+                        <label for="nom">Nom :</label><br>
+                        <input type="text" id="nom" name="nom"><br>
 
-                    <label for="prenom">Prénom :</label><br>
-                    <input type="text" id="prenom" name="prenom"><br>
+                        <label for="prenom">Prénom :</label><br>
+                        <input type="text" id="prenom" name="prenom"><br>
 
-                    <label for="email">Email :</label><br>
-                    <input type="email" id="email" name="email"><br><br>
+                        <label for="email">Email :</label><br>
+                        <input type="email" id="email" name="email"><br><br>
 
-                    <label>temps ecoute de musique par jours:</label><br>
-                    <input type="checkbox" id="+12h par jours" name="+12h par jours" value="+12h par jours">
-                    <label for="+12h par jours">+12h par jours</label><br>
-
-                    <input type="checkbox" id="+6h par jours" name="+6h par jours" value="+6h par jours">
-                    <label for="+6h par jours">+6h par jours</label><br>
-
-                    <input type="checkbox" id="-3h par jours" name="-3h par jours" value="-3h par jours">
-                    <label for="-3h par jours">-3h par jours</label><br>
-
-                    <input type="checkbox" id="-1h par jours" name="-1h par jours" value="-1h par jours">
-                    <label for="-1h par jours">-1h par jours</label><br>
-
-                    <input type="checkbox" id="-1h par semaine" name="-1h par semaine" value="-1h par semaine">
-                    <label for="-1h par semaine">-1h par semaine</label><br><br>
-
-                    <input type="submit" value="Envoyer">
-                </form>
-            
-            </div>
+                        <label>temps ecoute de musique par jours:</label><br>
+                        <select name="temps" id="temps">
+                            <option value="">--Choisissez une option--</option>
+                            <option value="+12h_par_jours">+12h par jours</option>
+                            <option value="+6h_par_jours">+6h par jours</option>
+                            <option value="-3h_par_jours">-3h par jours</option>
+                            <option value="-1h_par_jours">-1h par jour</option>
+                            <option value="-1h_par_semaine">-1h par semaine</option>
+                        </select>
+                        
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="blanc">
         <p>

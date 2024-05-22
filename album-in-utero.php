@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
 </head>
-<body>
+<body class= background-in-utero> 
     <nav class="nav">
-        <div class="logo-container">
-            <a href="index.html">
+        <div class="container2">
+            <a href="index.php">
                 <img class="logo_accueil" src="images/logo_accueil.png" alt="images/logo_accueil.png " class="image" > 
             </a>
         </div>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="album-in-utero.html">Nirvana in Utero</a></li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="album-in-utero.php">Nirvana in Utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
-            <li><a href="clip-video.html">video</a></li>
-            <li><a href="Discographie.html">Discographie</a></li>
+            <li><a href="clip-video.php">video</a></li>
+            <li><a href="Discographie.php">Discographie</a></li>
         </ul>
     </nav>
     <header>
@@ -51,7 +51,7 @@
                                 <audio controls>
                                     <source src="./musique/in-utero/Nirvana - Scentless Apprentice.mp3" type="audio/mpeg">
                                 </audio>
-                               <p style="text-decoration: underline;">Scentless Apprentice</p>
+                                <p style="text-decoration: underline;">Scentless Apprentice</p>
                             </div>
                         </li>
                         <li>
@@ -59,7 +59,7 @@
                                 <audio controls>
                                     <source src="./musique/in-utero/Nirvana - Heart Shaped.mp3" type="audio/mpeg">
                                 </audio>
-                               <p style="text-decoration: underline;">Heart Shaped Box</p>
+                                <p style="text-decoration: underline;">Heart Shaped Box</p>
                             </div>
                         </li>
                         <li>
@@ -79,19 +79,19 @@
                             </div>
                         </li>
                         <li>
-                        <div class="lecteur-audio">
-                            <audio controls>
-                                <source src="./musique/in-utero/Nirvana - Dumb.mp3" type="audio/mpeg">
-                            </audio>
-                            <p style="text-decoration: underline;">Dumb</p>
-                        </div>
+                            <div class="lecteur-audio">
+                                <audio controls>
+                                    <source src="./musique/in-utero/Nirvana - Dumb.mp3" type="audio/mpeg">
+                                </audio>
+                                <p style="text-decoration: underline;">Dumb</p>
+                            </div>
                         </li>
                         <li>
                             <div class="lecteur-audio">
                                 <audio controls>
                                     <source src="./musique/in-utero/Nirvana - Very Ape.mp3" type="audio/mpeg">
                                 </audio>
-                               <p style="text-decoration: underline;">Very Ape</p>
+                                <p style="text-decoration: underline;">Very Ape</p>
                             </div>
                         </li>
                         <li>
@@ -138,28 +138,28 @@
                 </div>
             </div> 
             <div class="test">       
-                <h2 class="Description">
-                Description:
-                </h2>
-                <p>
-                L’album culte de Nirvana sorti le 23 septembre 1993 fête ses trente ans cette année.
-                L’occasion de proposer aux fans une réédition anniversaire, 
-                augmentée de nombreux inédits.
-                30 ans déjà pour le mythique “In Utero”, le troisième et ultime
-                album de Nirvana, porteur des incontournables Heart Shaped Box,
-                All Apologies, Rape Me, Dumb ou bien encore Pennyroyal Tea.
-                Un disque chaotique, dont la promotion et les tournées ont été chahutées 
-                par la dégradation de l’état de santé de Kurt Cobain le conduisant à son suicide, 
-                le 5 avril 1994, mais qui reste à ce jour 
-                l’un des plus grands chefs-d’oeuvre du mouvement Grunge.
-                </p>
+                    <h2 class="Description">
+                        Description:
+                    </h2>
+                    <p>
+                        L’album culte de Nirvana sorti le 23 septembre 1993 fête ses trente ans cette année.
+                        L’occasion de proposer aux fans une réédition anniversaire, 
+                        augmentée de nombreux inédits.
+                        30 ans déjà pour le mythique “In Utero”, le troisième et ultime
+                        album de Nirvana, porteur des incontournables Heart Shaped Box,
+                        All Apologies, Rape Me, Dumb ou bien encore Pennyroyal Tea.
+                        Un disque chaotique, dont la promotion et les tournées ont été chahutées 
+                        par la dégradation de l’état de santé de Kurt Cobain le conduisant à son suicide, 
+                        le 5 avril 1994, mais qui reste à ce jour 
+                        l’un des plus grands chefs-d’oeuvre du mouvement Grunge.
+                    </p>
             </div>
         </section>
     </main>
-<footer>
-    <p>
-        © 2024 Site-crée-par-Dutisseuil-Yannick
-    </p>
-</footer>
+    <footer>
+        <p>
+            © 2024 Site-crée-par-Dutisseuil-Yannick
+        </p>
+    </footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
-body { 
-    background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg); 
+.background-in-utero{
+    background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg);  
     
 }
 /* Styles pour la première section avec une image de fond spécifique */
@@ -9,15 +9,16 @@ body {
 }
 /* Styles pour la section d'accueil avec une couleur de fond burlywood */
 .background-page-accueil {
-    /*background: burlywood;*/
     background-image:url("images/87f447a87044a7b2d30ea5f460fecb46.jpg");
    
 }
 /* Styles pour la page discographie avec l'image poubelle */
-.background-discographie{
+.background-poubelle{
     background-image:url("images/poubelle.jpg") ;
     background-size: cover; /* S'assure que l'image couvre toute la page */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    height: 1150px;
+    height: 50%;
 }
 
 /* Styles pour les titres de niveau 1 (h1) */
@@ -39,7 +40,6 @@ h2{
 h2.album-bleach{
     border-radius: 5px; /* Arrondit les coins de la bordure */
     height:150px; /* Hauteur fixe */
-    width:900px; /* Largeure */
     text-align: center;/* Alignement au centre */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
@@ -48,11 +48,12 @@ h2.album-bleach{
 h2.album-in-utero{
     border-radius: 5px; /* Arrondit les coins de la bordure */
     height:150px; /* Hauteur fixe */
-    width:900px; /* Largeure */
+    
     text-align: center;/* Alignement au centre */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
     text-shadow: 2px 2px 2px red;
+    margin: 5%;
 }
 
 h2.Description{
@@ -66,6 +67,7 @@ h2.Description2{
     font-size:30px;/* Taille de la police */
     width: 10px;/* Largeure */
     color: #fff;
+
 }
 h2.biographie{
     height: 50px; /* Hauteur fixe */
@@ -127,26 +129,29 @@ img.garcon{
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+    
 }
+
 img.garcon:hover{
     transform:rotate3d(0,1,0,180deg);
 }
     
 .photo{
     float: right; /* Déplace l'image vers la droite */
-    margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
+   
 }
 /* Styles spécifiques pour une classe photo2 */
 .photo2 {
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
     float: right; /* Déplace l'image vers la droite */
-    margin-left: 910px; /* Ajoute une marge à gauche pour espacer l'image de la liste */
+    
 }
 
 .photo4{
     display: flex;
     flex-direction: column; /* Arrange les images en colonne */
     align-items: center; /* Centre les images dans la colonne */
+   
 }
 .photo4 img {
     margin: 10px; /* Marge de 2px autour de chaque image */
@@ -205,7 +210,6 @@ section.bloc2 {
     background:black;
     padding: 40px;/* Ajoute un remplissage de 40 pixels autour des éléments */
     align-content: center;/* Centre le contenu verticalement */
-    width: 1250px; /* Définit la largeur de l'élément à 1250 pixels */
     height: 1145px;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
@@ -222,6 +226,7 @@ section.bloc2 {
     justify-content: center;/* Centrer horizontalement le contenu */
     align-items: center;/* Centrer verticalement le contenu */
     flex-direction: row-reverse;/*inverse le contenu du bloc*/
+
 }
 
 .bloc3 {
@@ -243,6 +248,8 @@ section.bloc2 {
     color: #fff;
     width: 1250px; /* Définit la largeur de l'élément à 1250 pixels */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    
+    
 }
     /* Styles pour le lecteur audio */
 audio{
@@ -254,16 +261,19 @@ audio{
 .liste-audio {
    /* list-style-type: none; /* Supprimez les puces de la liste */
     padding: 0; /* Supprimez les marges intérieures de la liste */
+    padding: 5%;
 }
 .lecteur-audio{
     display: flex;/* Utilisez flexbox pour aligner les éléments */
     align-items: center;/* Alignez verticalement les éléments */
+
 }
 .lecteur-audio audio {
     margin-right: 120px; /* Ajoutez un espacement entre le lecteur audio et le texte */
 }
 .liste-audio li {
     margin-bottom: 10px; /* Ajoutez un espacement entre chaque élément de la liste */
+   
 }
 .test {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
@@ -271,9 +281,8 @@ audio{
     background:black;
     margin:90px;/* Marge de 90% autour des éléments */
     color: #fff;
-    padding: 40px;/* Supprimez les marges intérieures */
-    width: 1250px;/*hauteur*/
-    margin: 90px auto; /* Remplacez la marge gauche et droite par "auto" */
+    padding: 10px;/* Supprimez les marges intérieures */
+    /*margin:0 auto; /* Remplacez la marge gauche et droite par "auto" */
     text-align: justify;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
@@ -285,9 +294,6 @@ audio{
     color:white;
     background:black;
     padding: 40px;/* Supprimez les marges intérieures */
-    width: 1250px;/* Largeure */
-    height: 200px;/*hauteur*/
-    margin: 90px auto;/* Marge de 90% autour des éléments */
     text-align: justify;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
@@ -296,12 +302,8 @@ audio{
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     color:black;
-    margin: 90px;/* Marge de 90% autour des éléments */
     background: rgba(186, 182, 182, 0.632);
     padding: 40px;/* Supprimez les marges intérieures */
-    width: 1200px;/* Largeure */
-    height: 450px;/*hauteur*/
-    margin: 90px auto;/* Marge de 90% autour des éléments */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     text-align: justify;
 }
@@ -348,9 +350,11 @@ audio{
 }
 img.logo_accueil{
     height: 40px;
-    margin:20px;
+    margin:0px;
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    justify-content: center;
+
 }
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
@@ -365,21 +369,7 @@ section {
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     justify-content: center; /* Centrer verticalement le contenu */
-
-}
-
-/* Styles pour les sections de la page */
-section {
-    display: flex; /* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column; /* Organiser les éléments en colonnes */
-    justify-content: center; /* Centrer verticalement le contenu */
-}
-
-/* Styles pour les sections de la page */
-section {
-    display: flex; /* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column; /* Organiser les éléments en colonnes */
-    justify-content: center; /* Centrer verticalement le contenu */
+    max-width:center ;
 }
 
 /* Styles pour les conteneurs vidéo */
@@ -427,13 +417,8 @@ footer {
     margin: 50px;
     padding: 50px; /* Retirer le padding */
     background-color:grey ;
-    width: 15%;
+    width: 35%;
     height: 50%;
-   
 }
-.formulaire{
-    display: flex;
-}
-
 
 
