@@ -44,16 +44,17 @@ h2.album-bleach{
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
     text-shadow: 2px 2px 2px red;
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
 h2.album-in-utero{
     border-radius: 5px; /* Arrondit les coins de la bordure */
     height:150px; /* Hauteur fixe */
-    
     text-align: center;/* Alignement au centre */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
     text-shadow: 2px 2px 2px red;
     margin: 5%;
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
 
 h2.Description{
@@ -83,6 +84,7 @@ h2.biographie{
     height: 150px; /* Hauteur fixe */
     color:rgb(47, 42, 42);/* Couleur du texte avec transparence */
     text-shadow: 1px 4px 3px red;
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
 
 /* Styles pour les images */
@@ -131,7 +133,6 @@ img.garcon{
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    
 }
 
 img.garcon:hover{
@@ -140,20 +141,17 @@ img.garcon:hover{
     
 .photo{
     float: right; /* Déplace l'image vers la droite */
-   
 }
 /* Styles spécifiques pour une classe photo2 */
 .photo2 {
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
     float: right; /* Déplace l'image vers la droite */
-    
 }
 
 .photo4{
     display: flex;
     flex-direction: column; /* Arrange les images en colonne */
     align-items: center; /* Centre les images dans la colonne */
-    
 }
 .photo4 img {
     margin: 10px; /* Marge de 2px autour de chaque image */
@@ -264,7 +262,7 @@ audio{
 .liste-audio {
    /* list-style-type: none; /* Supprimez les puces de la liste */
     padding: 0; /* Supprimez les marges intérieures de la liste */
-    padding: 5%;
+    
 }
 .lecteur-audio{
     display: flex;/* Utilisez flexbox pour aligner les éléments */
@@ -299,6 +297,7 @@ audio{
     padding: 40px;/* Supprimez les marges intérieures */
     text-align: justify;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    margin: 5%;
 }
 
 .texte3 {
@@ -309,13 +308,14 @@ audio{
     padding: 40px;/* Supprimez les marges intérieures */
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     text-align: justify;
+    margin: 5%;
 }
 
 /* Réinitialisation des styles */
 * {
     margin: 0;/* Remise à zéro de la marge de tous les éléments */
     padding: 0; /* Remise à zéro du remplissage de tous les éléments */
-    box-sizing: border-box; /* Spécifie que la largeur et la hauteur incluent le remplissage et la bordure, mais pas la marge */
+   /* box-sizing: border-box; /* Spécifie que la largeur et la hauteur incluent le remplissage et la bordure, mais pas la marge */
 }
 
 /* Style de base pour la navigation */
@@ -373,9 +373,6 @@ section {
     flex-direction: column; /* Organiser les éléments en colonnes */
     justify-content: center; /* Centrer verticalement le contenu */
     max-width:center ;
-   
-
-    
 }
 
 /* Styles pour les conteneurs vidéo */
@@ -384,7 +381,6 @@ section {
     width: 100%;/* Largeur de 100% */
     max-width: 1500px; /* Largeur maximale */
     margin: 0 auto; /* Centrer horizontalement */
-
 }
 
   /* Styles pour les conteneurs vidéo responsives */
@@ -395,7 +391,6 @@ section {
     overflow: hidden;/* Masquer le contenu qui dépasse */
 }
 
-  
 .video-wrapper iframe {
     position: absolute;/* Position absolue pour les vidéos */
     top: 0;/* Alignement au bord supérieur */
@@ -419,18 +414,14 @@ footer {
     margin: 20px; /* Marge de 20 pixels tout autour */
 }
 
-
 .container-formulaire{
     margin: 50px;
     padding: 50px; /* Retirer le padding */
     background-color:grey ;
-   
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column-reverse; /* Organiser les éléments en colonnes */
     width:100% ;
 }
-
-
 
 .container{
     display: flex;
