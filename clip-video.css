@@ -1,0 +1,30 @@
+/* Styles pour les conteneurs vidéo */
+.video-container {
+    position: relative; /* Position relative pour les éléments enfants absolus */
+    width: 100%;/* Largeur de 100% */
+    max-width: 1500px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+  /* Styles pour les conteneurs vidéo responsives */
+.video-wrapper {
+    position: relative; /* Position relative pour les éléments enfants absolus */
+    padding-bottom: 56.25%;/* Rapport hauteur/largeur pour les vidéos 16:9 */
+    height: 0; /* Hauteur nulle */
+    overflow: hidden;/* Masquer le contenu qui dépasse */
+}
+
+.video-wrapper iframe {
+    position: absolute;/* Position absolue pour les vidéos */
+    top: 0;/* Alignement au bord supérieur */
+    left: 0;/* Alignement au bord gauche */
+    width: 100%;/*largeur*/
+    height: 100%;/*hauteur*/
+}
+
+
+
+
+
+
+

@@ -39,6 +39,7 @@ mysqli_close($connexion);
     <meta name="Description" content="fiche de renseignement sur album de nirvana Bleach">
     <title>NIRVANA BLEACH</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bleach.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-page-1">
@@ -89,7 +90,7 @@ mysqli_close($connexion);
             </div> 
             <div class="test2">       
                 <h2 class="Description2">
-                Description:
+                    Description:
                 </h2>
                 <p>
                     Le 15 juin 1989 sortait le premier album de Nirvana. Aujourd'hui Bleach a 26 ans.

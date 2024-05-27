@@ -6,6 +6,7 @@
     <meta name="Description"content="video clip en live d une chanson de album in utero">
     <title>Vidéo Nirvana in utero</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="clip-video.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-video">

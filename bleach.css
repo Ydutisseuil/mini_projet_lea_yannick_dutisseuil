@@ -1,0 +1,49 @@
+/* Styles pour la première section avec une image de fond spécifique */
+.background-page-1 { 
+    background-image:url("images/rue.jpg");/* Image de fond spécifique album bleach*/ 
+}
+/* Styles pour album bleach pour les titres de niveau 2 avec une couleur personnalisée */
+.titre2 {
+    font-size:120px;/* Taille de la police */
+    text-align: center; /* Alignement au centre */
+    height: 150px; /* Hauteur fixe */
+    color:rgb(47, 42, 42);/* Couleur du texte avec transparence */
+    text-shadow: 1px 4px 3px red;
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+}
+/* photo ronde album bleach */
+img.Nirvana-Bleach{
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    border: 2px solid white; 
+    width: 200px;/* Largeur */
+    height: 200px;/*hauteur*/
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+/* style photo ronde album bleach */
+img.Nirvana-Bleach:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
+/* Styles spécifiques pour une classe photo2  album bleach*/
+.photo2 {
+    height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
+}
+/* scetion div bloc2 bleach*/
+section.bloc2 {
+    display: flex;/* Utilisation de flexbox pour organiser les éléments */
+}
+/* Styles pour les blocs de texte album bleach */
+.texte2 {
+    height: 1145px;
+}
+/* album bleach */
+.test2 {
+    color:white;
+    padding: 40px;/* Supprimez les marges intérieures */
+    margin: 5%;
+}
+

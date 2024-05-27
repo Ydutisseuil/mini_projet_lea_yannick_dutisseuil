@@ -1,0 +1,36 @@
+/* Styles pour la section d'accueil avec une couleur de fond burlywood */
+.background-page-accueil {
+    background-image:url("images/drapeau.jpg");  
+}
+/* biographie page accueil */
+h2.biographie{
+    height: 50px; /* Hauteur fixe */
+    font-size:30px;/* Taille de la police */
+    width: 10px;/* Largeure */
+}
+/* style photo ronde page accueil */
+img.garcon{
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    width: 400px;/* Largeur */
+    height: 400px;/*hauteur*/
+    filter: drop-shadow(0 0 0.75rem red);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+/* photo page accueil */
+img.garcon:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
+/* bloc div page index */
+.bloc3 {
+    margin: 5%;
+}
+/* page accueil */
+.texte3 {
+    color:black;
+    background: rgba(186, 182, 182, 0.632);
+    margin: 5%;
+}

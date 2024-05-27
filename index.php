@@ -6,6 +6,7 @@
     <meta name="Description"content="page accueil qui presente le group nirvana">
     <title>Accueil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-page-accueil">

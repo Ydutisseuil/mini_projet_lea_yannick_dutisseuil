@@ -1,23 +1,23 @@
-.background-in-utero{
+/* style de la page in-utero avec une images defond d'eau */
+/*.background-in-utero{
     background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg);  
     
 }
 /* Styles pour la première section avec une image de fond spécifique */
-.background-page-1 { 
+/*.background-page-1 { 
     background-image:url("images/rue.jpg");/* Image de fond spécifique album bleach*/
     
-}
+
 /* Styles pour la section d'accueil avec une couleur de fond burlywood */
-.background-page-accueil {
-    background-image:url("images/drapeau.jpg");
+/*.background-page-accueil {
+    background-image:url("images/drapeau.jpg");*/
    
-}
 /* Styles pour la page discographie avec l'image poubelle */
-.background-poubelle{
+/*.background-poubelle{
     background-image:url("images/poubelle.jpg") ;
     background-size: cover; /* S'assure que l'image couvre toute la page */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    height: 1150px;
+    /*background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /*height: 1150px;
     height: 50%;
 }
 
@@ -29,15 +29,18 @@ h1 {
     margin-top: 5%;/* Ajoute une marge de 5% en haut de la balise h1 */
     text-shadow: 2px 2px 2px red;
 }
+/* style pour page acceuil */
 .titre3{
     color: #fff;
     text-shadow: 2px 2px 2px red;
 }
+/* style des (h2) */
 h2{
     font-size:100px;/* Taille de la police */ 
     height: 250px; /* Hauteur fixe */
 }
-h2.album-bleach{
+/* titre album bleach et album in-utero */
+h2.album-bleach , h2.album-in-utero{
     border-radius: 5px; /* Arrondit les coins de la bordure */
     height:150px; /* Hauteur fixe */
     text-align: center;/* Alignement au centre */
@@ -46,199 +49,166 @@ h2.album-bleach{
     text-shadow: 2px 2px 2px red;
     filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
-h2.album-in-utero{
-    border-radius: 5px; /* Arrondit les coins de la bordure */
-    height:150px; /* Hauteur fixe */
-    text-align: center;/* Alignement au centre */
-    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
-    padding: 0%; /* Ajoute un espacement à l'intérieur de la bordure */
-    text-shadow: 2px 2px 2px red;
+/* titre album in-utero */
+/*h2.album-in-utero{
     margin: 5%;
-    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
-
-h2.Description{
+/* description album in-utero et album bleach */
+h2.Description ,h2.Description2{
     height: 50px; /* Hauteur fixe */
     font-size:30px;/* Taille de la police */
     width: 10px;/* Largeure */
     color: #fff;
 }
-h2.Description2{
+/* biographie page accueil */
+/*h2.biographie{
     height: 50px; /* Hauteur fixe */
-    font-size:30px;/* Taille de la police */
-    width: 10px;/* Largeure */
-    color: #fff;
+   /* font-size:30px;/* Taille de la police */
+   /* width: 10px;/* Largeure */
 
-}
-h2.biographie{
-    height: 50px; /* Hauteur fixe */
-    font-size:30px;/* Taille de la police */
-    width: 10px;/* Largeure */
-}
-
-
-/* Styles pour les titres de niveau 2 avec une couleur personnalisée */
-.titre2 {
+/* Styles pour album bleach pour les titres de niveau 2 avec une couleur personnalisée */
+/*.titre2 {
     font-size:120px;/* Taille de la police */
-    text-align: center; /* Alignement au centre */
-    height: 150px; /* Hauteur fixe */
-    color:rgb(47, 42, 42);/* Couleur du texte avec transparence */
-    text-shadow: 1px 4px 3px red;
+    /*text-align: center; /* Alignement au centre */
+   /* height: 150px; /* Hauteur fixe */
+    /*color:rgb(47, 42, 42);/* Couleur du texte avec transparence */
+    /*text-shadow: 1px 4px 3px red;
     filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
 }
-
 /* Styles pour les images */
 img {
     float: right; /* Déplace l'image vers la droite */
     height: 250px; /* Hauteur fixe pour toutes les images utero */
 }
-img.Nirvana-Bleach{
+/* photo ronde album bleach */
+/*img.Nirvana-Bleach{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
-    border: 2px solid white; 
+   /* border: 2px solid white; 
     width: 200px;/* Largeur */
-    height: 200px;/*hauteur*/
-    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+    /*height: 200px;/*hauteur*/
+    /*filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-img.Nirvana-Bleach:hover{
+/* style photo ronde album bleach */
+/*img.Nirvana-Bleach:hover{
     transform:rotate3d(0,1,0,180deg);
 }
-
-img.in-utero{
+/* photo ronde album in-utero */
+/*img.in-utero{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
-    border: 2px solid white; 
+    /*border: 2px solid white; 
     width: 200px;/* Largeur */
-    height: 200px;/*hauteur*/
-    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+   /* height: 200px;/*hauteur*/
+    /*filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-img.in-utero:hover{
+/* style photo ronde album in-utero */
+/*img.in-utero:hover{
     transform:rotate3d(0,1,0,180deg);
 }
-img.garcon{
+/* style photo ronde page accueil */
+/*img.garcon{
     border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
-    width: 400px;/* Largeur */
-    height: 400px;/*hauteur*/
-    filter: drop-shadow(0 0 0.75rem red);
+    /*width: 400px;/* Largeur */
+    /*height: 400px;/*hauteur*/
+    /*filter: drop-shadow(0 0 0.75rem red);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
+/* photo page accueil */
+/*img.garcon:hover{
+    transform:rotate3d(0,1,0,180deg);*/
 
-img.garcon:hover{
-    transform:rotate3d(0,1,0,180deg);
-}
-    
-.photo{
+ /* style photo album in-utero */   
+/*.photo ,.photo2{
     float: right; /* Déplace l'image vers la droite */
-}
-/* Styles spécifiques pour une classe photo2 */
-.photo2 {
+
+/* Styles spécifiques pour une classe photo2  album bleach*/
+/*.photo2 {
     height: 550px; /* Hauteur fixe pour les éléments avec la classe photo2 */
-    float: right; /* Déplace l'image vers la droite */
-}
 
-.photo4{
+/* style pour discographie */
+/*.photo4{
     display: flex;
     flex-direction: column; /* Arrange les images en colonne */
-    align-items: center; /* Centre les images dans la colonne */
-}
-.photo4 img {
+   /* align-items: center; /* Centre les images dans la colonne */
+
+/* style discographie */
+/*.photo4 img {
     margin: 10px; /* Marge de 2px autour de chaque image */
-    width: 300px; /* Largeur fixe pour toutes les images */
-    height: 300px; /* Hauteur fixe pour toutes les images */
-    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
-    margin-left: 110px; 
+    /*width: 300px; /* Largeur fixe pour toutes les images */
+   /* height: 300px; /* Hauteur fixe pour toutes les images */
+    /*object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
+    /*margin-left: 110px; 
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     
-}
-.image-text {
-    display: flex; /* Arrange l'image et le texte en ligne */
-    align-items: center; /* Aligne l'image et le texte au centre verticalement */
-    margin: 2px 0; /* Marge autour de chaque ensemble image-texte */
-     
-}
 
-.image-text img {
+/* images discographie */
+/*.image-text {
+    display: flex; /* Arrange l'image et le texte en ligne */
+   /* align-items: center; /* Aligne l'image et le texte au centre verticalement */
+    /*margin: 2px 0; /* Marge autour de chaque ensemble image-texte */
+     
+
+/* images discographie */
+/*.image-text img {
     margin-right: 60px; /* Espace entre l'image et le texte */
-    width: 200px; /* Largeur fixe pour toutes les images */
-    height: 200px; /* Hauteur fixe pour toutes les images */
-    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
+   /* width: 200px; /* Largeur fixe pour toutes les images */
+   /* height: 200px; /* Hauteur fixe pour toutes les images */
+   /* object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
     
-}
-.image-text p {
+
+/* images discographie */
+/*.image-text p {
     font-size: 16px; /* Taille de la police du texte */
-    color:blanchedalmond; /* Couleur du texte */
-    margin: 0; /* Supprime la marge par défaut du paragraphe */
-    max-width: 300px; /* Ajustez la largeur selon vos besoins */
-    background-color:rgba(55, 44, 44, 0.683) ;
+   /* color:blanchedalmond; /* Couleur du texte */
+   /* margin: 0; /* Supprime la marge par défaut du paragraphe */
+    /*max-width: 300px; /* Ajustez la largeur selon vos besoins */
+    /*background-color:rgba(55, 44, 44, 0.683) ;
     width: 300px; 
     height: 200px; 
     display: flex; /* Utilisation de flexbox */
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    text-align: center; /* Pour centrer le texte horizontalement */
-    border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+   /* justify-content: center; /* Centre horizontalement */
+    /*align-items: center; /* Centre verticalement */
+    /*flex-direction: column; /* Pour empiler les éléments verticalement */
+    /*text-align: center; /* Pour centrer le texte horizontalement */
+    /*border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 
-}
- section div {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
- }
 
-section.bloc2 {
+/* scetion div bloc2 bleach*/
+/*section.bloc2 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
-}
-/* Styles pour les blocs de texte */
-.texte2 {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column; /* Organiser les éléments en colonnes */
-    margin: 5%;/* Marge de 5% autour des éléments */
-    font-size: 25px;/* Taille de la police */
-    box-sizing: 5px; /* Boîte de modèle pour inclure les bordures dans la largeur/hauteur */
-    color:white;
-    background:black;
-    padding: 40px;/* Ajoute un remplissage de 40 pixels autour des éléments */
-    align-content: center;/* Centre le contenu verticalement */
+
+/* Styles pour les blocs de texte album bleach */
+/*.texte2 {
     height: 1145px;
-    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
 /* Styles pour les blocs génériques */
-.bloc {
+
+/* bloc div in-utero , div bleach , div page index */
+.bloc , .bloc2, .bloc3 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     justify-content: center;/* Centrer horizontalement le contenu */
     align-items: center; /* Centrer verticalement le contenu */
     flex-direction: row-reverse;/*inverse le contenu du bloc*/
 }
-
-.bloc2 {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
-    justify-content: center;/* Centrer horizontalement le contenu */
-    align-items: center;/* Centrer verticalement le contenu */
-    flex-direction: row-reverse;/*inverse le contenu du bloc*/
-
-}
-
-.bloc3 {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
-    justify-content: center;/* Centrer horizontalement le contenu */
-    align-items: center;/* Centrer verticalement le contenu */
+/* bloc div page index */
+/*.bloc3 {
     margin: 5%;
 }
-
-
-/* Styles pour les blocs de texte */
-.texte {
+/* Styles pour les blocs de texte  album in-utero et album bleach */
+.texte ,.texte2{
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     margin: 5%; /* Marge de 5% autour des éléments */
@@ -250,7 +220,6 @@ section.bloc2 {
     color: #fff;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
     
-    
 }
     /* Styles pour le lecteur audio */
 audio{
@@ -260,54 +229,43 @@ audio{
 }
 
 .liste-audio {
-   /* list-style-type: none; /* Supprimez les puces de la liste */
+    list-style-type: none; /* Supprimez les puces de la liste */
     padding: 0; /* Supprimez les marges intérieures de la liste */
-    
-}
+}  
+
 .lecteur-audio{
     display: flex;/* Utilisez flexbox pour aligner les éléments */
     align-items: center;/* Alignez verticalement les éléments */
-
 }
+
 .lecteur-audio audio {
     margin-right: 120px; /* Ajoutez un espacement entre le lecteur audio et le texte */
 }
 .liste-audio li {
     margin-bottom: 10px; /* Ajoutez un espacement entre chaque élément de la liste */
-   
-}
-.test {
+}  
+
+/* style album in-utero, bleach, page accueil */
+.test, .test2, .texte3 {
     display: flex;/* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column; /* Organiser les éléments en colonnes */
     background:black;
     margin:90px;/* Marge de 90% autour des éléments */
     color: #fff;
     padding: 10px;/* Supprimez les marges intérieures */
-    /*margin:0 auto; /* Remplacez la marge gauche et droite par "auto" */
     text-align: justify;
     border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
-
-
-.test2 {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column; /* Organiser les éléments en colonnes */
+/* album bleach */
+/*.test2 {
     color:white;
-    background:black;
     padding: 40px;/* Supprimez les marges intérieures */
-    text-align: justify;
-    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
-    margin: 5%;
+   /* margin: 5%;
 }
-
-.texte3 {
-    display: flex;/* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column; /* Organiser les éléments en colonnes */
+/* page accueil */
+/*.texte3 {
     color:black;
     background: rgba(186, 182, 182, 0.632);
-    padding: 40px;/* Supprimez les marges intérieures */
-    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
-    text-align: justify;
     margin: 5%;
 }
 
@@ -317,7 +275,6 @@ audio{
     padding: 0; /* Remise à zéro du remplissage de tous les éléments */
    /* box-sizing: border-box; /* Spécifie que la largeur et la hauteur incluent le remplissage et la bordure, mais pas la marge */
 }
-
 /* Style de base pour la navigation */
 .nav {
     background-color: #333333;/* Couleur de fond */
@@ -328,20 +285,17 @@ audio{
     text-align: center; /* Centre le contenu du conteneur du logo */
     margin-bottom: 10px; /* Espace entre le logo et les liens de navigation */
 }
-
 .nav ul {
     list-style-type: none;/* Supprimer les puces des listes */
     /*text-align: center;/* Alignement du texte au centre */
     padding: 0; /* Enlever le padding par défaut */
     margin: 0; /* Enlever la marge par défaut */
 }
-
 .nav ul li {
    /* display: inline;/* Affichage en ligne pour les éléments de liste */
    display: inline-block; /* Affichage en bloc en ligne pour les éléments de liste */
    margin: 0 10px; /* Marges entre les éléments de liste */
 }
-
 .nav ul li a {
     color: #fff; /* Couleur du texte */
     text-decoration: none; /* Supprimer la décoration de lien par défaut */
@@ -351,6 +305,7 @@ audio{
     font-size: 20px;/* taille de police texte nav */
     text-shadow: 1px 1px 2px red;
 }
+/* style boutton acceuil */
 img.logo_accueil{
     height: 40px;
     margin:0px;
@@ -359,9 +314,11 @@ img.logo_accueil{
     justify-content: center;
 
 }
+/* style boutton accueil dans nav bar */
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
 }
+/* style boutton acceuil*/
 .logo {
     height: 50px; /* Hauteur fixe pour le logo */
     width: auto; /* Largeur automatique pour garder les proportions */
@@ -376,54 +333,50 @@ section {
 }
 
 /* Styles pour les conteneurs vidéo */
-.video-container {
+/*.video-container {
     position: relative; /* Position relative pour les éléments enfants absolus */
-    width: 100%;/* Largeur de 100% */
-    max-width: 1500px; /* Largeur maximale */
-    margin: 0 auto; /* Centrer horizontalement */
-}
+    /*width: 100%;/* Largeur de 100% */
+    /*max-width: 1500px; /* Largeur maximale */
+    /*margin: 0 auto; /* Centrer horizontalement */
+
 
   /* Styles pour les conteneurs vidéo responsives */
-.video-wrapper {
-    position: relative; /* Position relative pour les éléments enfants absolus */
-    padding-bottom: 56.25%;/* Rapport hauteur/largeur pour les vidéos 16:9 */
-    height: 0; /* Hauteur nulle */
-    overflow: hidden;/* Masquer le contenu qui dépasse */
-}
+/*.video-wrapper {
+    /*position: relative; /* Position relative pour les éléments enfants absolus */
+    /*padding-bottom: 56.25%;/* Rapport hauteur/largeur pour les vidéos 16:9 */
+    /*height: 0; /* Hauteur nulle */
+   /* overflow: hidden;/* Masquer le contenu qui dépasse */
 
-.video-wrapper iframe {
+
+/*.video-wrapper iframe {
     position: absolute;/* Position absolue pour les vidéos */
-    top: 0;/* Alignement au bord supérieur */
-    left: 0;/* Alignement au bord gauche */
-    width: 100%;/*largeur*/
-    height: 100%;/*hauteur*/
-}
- 
-.monsiteweb {
-    color: white;/* Texte en blanc */
-    margin: 20px;/* Marge de 20 pixels tout autour */
-}
+    /*top: 0;/* Alignement au bord supérieur */
+    /*left: 0;/* Alignement au bord gauche */
+   /* width: 100%;/*largeur*/
+    /*height: 100%;/*hauteur*/
 
+ 
+/* style du footer sur toutes les pages */
 footer {
     text-align: center;/* Centre le texte */
     margin: 20px;/* Marge de 20 pixels tout autour */
 }
-
+/* style du texte du footer sur certaines pages */
 .blanc {
     color:white;/* Texte en blanc */
     margin: 20px; /* Marge de 20 pixels tout autour */
 }
-
-.container-formulaire{
+/* style formulaire */
+/*.container-formulaire{
     margin: 50px;
     padding: 50px; /* Retirer le padding */
-    background-color:grey ;
+    /*background-color:grey ;
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
-    flex-direction: column-reverse; /* Organiser les éléments en colonnes */
-    width:100% ;
+    /*flex-direction: column-reverse; /* Organiser les éléments en colonnes */
+   /* width:100% ;
 }
-
-.container{
+/* style formulaire */
+/*.container{
     display: flex;
     width: 50%;
 }

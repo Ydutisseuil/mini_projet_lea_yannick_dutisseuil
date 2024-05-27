@@ -1,0 +1,32 @@
+/* style de la page in-utero avec une images defond d'eau */
+.background-in-utero{
+    background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg);
+}  
+/* titre album in-utero */
+h2.album-in-utero{
+    margin: 5%;
+}
+/* photo ronde album in-utero */
+img.in-utero{
+    border-radius: 50%;/* Définit un rayon de bordure de 50%, créant une forme de cercle */
+    border: 2px solid white; 
+    width: 200px;/* Largeur */
+    height: 200px;/*hauteur*/
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+/* style photo ronde album in-utero */
+img.in-utero:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
+/* style photo album in-utero */   
+.photo ,.photo2{
+    float: right; /* Déplace l'image vers la droite */
+}
+
+
+

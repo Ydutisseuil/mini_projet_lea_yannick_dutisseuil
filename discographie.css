@@ -1,0 +1,69 @@
+/* Styles pour la page discographie avec l'image poubelle */
+.background-poubelle{
+    background-image:url("images/poubelle.jpg") ;
+    background-size: cover; /* S'assure que l'image couvre toute la page */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    height: 1150px;
+    height: 50%;
+}
+/* style pour discographie */
+.photo4{
+    display: flex;
+    flex-direction: column; /* Arrange les images en colonne */
+    align-items: center; /* Centre les images dans la colonne */
+}
+/* style discographie */
+.photo4 img {
+    margin: 10px; /* Marge de 2px autour de chaque image */
+    width: 300px; /* Largeur fixe pour toutes les images */
+    height: 300px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */
+    margin-left: 110px; 
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+}
+/* images discographie */
+.image-text {
+    display: flex; /* Arrange l'image et le texte en ligne */
+    align-items: center; /* Aligne l'image et le texte au centre verticalement */
+    margin: 2px 0; /* Marge autour de chaque ensemble image-texte */   
+}
+/* images discographie */
+.image-text img {
+    margin-right: 60px; /* Espace entre l'image et le texte */
+    width: 200px; /* Largeur fixe pour toutes les images */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */ 
+}
+/* images discographie */
+.image-text p {
+    font-size: 16px; /* Taille de la police du texte */
+    color:blanchedalmond; /* Couleur du texte */
+    margin: 0; /* Supprime la marge par défaut du paragraphe */
+    max-width: 300px; /* Ajustez la largeur selon vos besoins */
+    background-color:rgba(55, 44, 44, 0.683) ;
+    width: 300px; 
+    height: 200px; 
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    text-align: center; /* Pour centrer le texte horizontalement */
+    border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+}
+  
+/* style formulaire */
+.container-formulaire{
+    margin: 50px;
+    padding: 50px; /* Retirer le padding */
+    background-color:grey ;
+    display: flex; /* Utilisation de flexbox pour organiser les éléments */
+    flex-direction: column-reverse; /* Organiser les éléments en colonnes */
+    width:100% ;
+}
+/* style formulaire */
+.container{
+    display: flex;
+    width: 50%;
+}
+
+

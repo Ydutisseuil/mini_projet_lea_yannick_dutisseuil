@@ -6,6 +6,7 @@
     <meta name="Description"content="page qui contient tous les albums de nirvana">
     <title>Discographie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discographie.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-poubelle">
@@ -107,7 +108,7 @@
                         <label for="email">Email :</label><br>
                         <input type="email" id="email" name="email"><br><br>
 
-                        <label>temps ecoute de musique par jours:</label><br>
+                        <label>temps écoute de musique par jours:</label><br>
                         <select name="temps" id="temps">
                             <option value="">--Choisissez une option--</option>
                             <option value="+12h_par_jours">+12h par jours</option>
