@@ -2,6 +2,10 @@
 .background-in-utero{
     background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91116/blue-water-texture-pool-water-textures-wavy-backgrounds-macro.jpg);
 }  
+/* style titre in-utero */
+.in-utero{
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+}
 /* titre album in-utero */
 h2.album-in-utero{
     margin: 5%;

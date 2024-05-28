@@ -17,7 +17,7 @@ h2{
     height: 250px; /* Hauteur fixe */
 }
 /* titre album bleach et album in-utero */
-h2.album-bleach , h2.album-in-utero{
+h2.album-bleach ,h2.album-in-utero{
     border-radius: 5px; /* Arrondit les coins de la bordure */
     height:150px; /* Hauteur fixe */
     text-align: center;/* Alignement au centre */
@@ -65,7 +65,7 @@ audio{
     background-color:red;
 }
 .liste-audio {
-    list-style-type: none; /* Supprimez les puces de la liste */
+   /* list-style-type: none; /* Supprimez les puces de la liste */
     padding: 0; /* Supprimez les marges intérieures de la liste */
 }  
 .lecteur-audio{

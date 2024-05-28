@@ -6,6 +6,11 @@
     height: 1150px;
     height: 50%;
 }
+/* style pour titre discographie */
+.discographie{
+    filter: drop-shadow(0 -6mm 4mm rgb(20, 220, 63));
+}
+
 /* style pour discographie */
 .photo4{
     display: flex;
@@ -33,6 +38,7 @@
     width: 200px; /* Largeur fixe pour toutes les images */
     height: 200px; /* Hauteur fixe pour toutes les images */
     object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */ 
+    border-radius: 50%;
 }
 /* images discographie */
 .image-text p {
@@ -59,6 +65,7 @@
     display: flex; /* Utilisation de flexbox pour organiser les éléments */
     flex-direction: column-reverse; /* Organiser les éléments en colonnes */
     width:100% ;
+    border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
 }
 /* style formulaire */
 .container{

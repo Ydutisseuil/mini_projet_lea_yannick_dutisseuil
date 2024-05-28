@@ -25,7 +25,7 @@
         </ul>
     </nav>
     <header>
-        <h1>DISCOGRAPHIE</h1>
+        <h1 class="discographie">DISCOGRAPHIE</h1>
     </header>
     <main>
         <div class="container">

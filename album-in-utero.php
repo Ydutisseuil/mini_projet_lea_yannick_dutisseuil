@@ -25,7 +25,7 @@
         </ul>
     </nav>
     <header>
-        <h1>NIRVANA IN UTERO</h1>
+        <h1 class="in-utero">NIRVANA IN UTERO</h1>
     </header>
     <main>
         <section>
