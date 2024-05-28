@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description"content="page qui contient tous les albums de nirvana">
     <title>Discographie</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="discographie.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/discographie.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-poubelle">

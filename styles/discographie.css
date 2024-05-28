@@ -1,6 +1,6 @@
 /* Styles pour la page discographie avec l'image poubelle */
 .background-poubelle{
-    background-image:url("images/poubelle.jpg") ;
+    background-image:url("../images/poubelle.jpg") ;
     background-size: cover; /* S'assure que l'image couvre toute la page */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     height: 1150px;

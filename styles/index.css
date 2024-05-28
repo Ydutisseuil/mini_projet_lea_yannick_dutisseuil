@@ -1,6 +1,6 @@
 /* Styles pour la section d'accueil avec une couleur de fond burlywood */
 .background-page-accueil {
-    background-image:url("images/drapeau.jpg");  
+    background-image:url("../images/drapeau.jpg");  
 }
 /* biographie page accueil */
 h2.biographie{

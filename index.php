@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description"content="page accueil qui presente le group nirvana">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-page-accueil">

@@ -38,8 +38,8 @@ mysqli_close($connexion);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="fiche de renseignement sur album de nirvana Bleach">
     <title>NIRVANA BLEACH</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bleach.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bleach.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-page-1">

@@ -1,6 +1,6 @@
 /* Styles pour la première section avec une image de fond spécifique */
 .background-page-1 { 
-    background-image:url("images/rue.jpg");/* Image de fond spécifique album bleach*/ 
+    background-image:url("../images/rue.jpg");/* Image de fond spécifique album bleach*/ 
 }
 /* Styles pour album bleach pour les titres de niveau 2 avec une couleur personnalisée */
 .titre2 {

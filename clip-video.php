@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description"content="video clip en live d une chanson de album in utero">
     <title>Vidéo Nirvana in utero</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="clip-video.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/clip-video.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class="background-video">

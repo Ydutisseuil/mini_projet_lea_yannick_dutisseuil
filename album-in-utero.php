@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="fiche de renseignement sur album de nirvana in utero">
     <title>NIRVANA IN UTERO</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="in-utero.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/in-utero.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body class= background-in-utero> 
