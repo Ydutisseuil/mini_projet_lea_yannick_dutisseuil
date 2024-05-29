@@ -39,6 +39,15 @@
     height: 200px; /* Hauteur fixe pour toutes les images */
     object-fit: cover; /* Ajuste l'image pour couvrir l'espace donné tout en conservant son aspect ratio */ 
     border-radius: 50%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+/* style photo ronde album bleach */
+.image-text img:hover{
+    transform:rotate3d(0,1,0,180deg);
 }
 /* images discographie */
 .image-text p {

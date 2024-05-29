@@ -7,7 +7,7 @@
     <title>NIRVANA IN UTERO</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/in-utero.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
 </head>
 <body class= background-in-utero> 
     <nav class="nav">

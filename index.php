@@ -7,7 +7,7 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
 </head>
 <body class="background-page-accueil">
     <nav class="nav">

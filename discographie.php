@@ -7,7 +7,7 @@
     <title>Discographie</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/discographie.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
 </head>
 <body class="background-poubelle">
     <nav class="nav">

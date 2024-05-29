@@ -40,7 +40,7 @@ mysqli_close($connexion);
     <title>NIRVANA BLEACH</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/bleach.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
 </head>
 <body class="background-page-1">
     <nav class="nav">

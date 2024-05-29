@@ -7,7 +7,7 @@
     <title>Vidéo Nirvana in utero</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/clip-video.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
 </head>
 <body class="background-video">
     <nav class="nav">
