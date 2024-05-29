@@ -35,8 +35,9 @@ h2.Description ,h2.Description2{
 }
 /* Styles pour les images */
 img {
-    float: right; /* Déplace l'image vers la droite */
-    height: 250px; /* Hauteur fixe pour toutes les images utero */
+    /*float: right; /* Déplace l'image vers la droite */
+    height: 45px; /* Hauteur fixe pour toutes les images utero */
+    
 }
 /* bloc div in-utero , div bleach , div page index */
 .bloc , .bloc2, .bloc3 {
@@ -123,7 +124,8 @@ audio{
     display: inline-block; /* Affichage en bloc pour les éléments de lien */
     transition: all 0.3s ease;/* Effet de transition pour le survol */
     font-size: 20px;/* taille de police texte nav */
-    text-shadow: 1px 1px 2px red;
+    text-shadow: 1px 2px 2px red;
+    text-decoration: underline white;
 }
 /* style boutton acceuil */
 img.logo_accueil{
@@ -153,12 +155,16 @@ section {
 footer {
     text-align: center;/* Centre le texte */
     margin: 20px;/* Marge de 20 pixels tout autour */
+    
 }
 /* style du texte du footer sur certaines pages */
 .blanc {
     color:white;/* Texte en blanc */
     margin: 20px; /* Marge de 20 pixels tout autour */
 }
-
+.ecole{
+    border: 2px solid red; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    border-radius: 50%;
+}
 
 

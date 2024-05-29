@@ -17,7 +17,7 @@
             </a>
         </div>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
+            <!-- <li><a href="index.php">Accueil</a></li> -->
             <li><a href="album-in-utero.php">Nirvana in utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
             <li><a href="clip-video.php">video</a></li>
@@ -27,7 +27,8 @@
         <div class="video-container">
             <iframe width="1360" height="815" src="https://www.youtube.com/embed/4dcIPGzxsl8?si=N9byfuRqFjz6J7SW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-<footer>        
+<footer>  
+    <img class="ecole"src="images/école atypique.jpg"alt="images/école atypique.jpg">
     <p>
         © 2024 Site-crée-par-Dutisseuil-Yannick
     </p>

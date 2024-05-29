@@ -44,6 +44,7 @@
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+   
 }
 /* style photo ronde album bleach */
 .image-text img:hover{
@@ -64,6 +65,8 @@
     flex-direction: column; /* Pour empiler les éléments verticalement */
     text-align: center; /* Pour centrer le texte horizontalement */
     border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    box-shadow: 10px 5px 5px rgb(20, 220, 63); 
+    border-radius: 30px;
 }
   
 /* style formulaire */
@@ -75,11 +78,15 @@
     flex-direction: column-reverse; /* Organiser les éléments en colonnes */
     width:100% ;
     border: 2px solid red ; /* Définit une bordure de 2 pixels de largeur, solide et rouge */
+    border-radius: 30px;
 }
 /* style formulaire */
 .container{
     display: flex;
     width: 50%;
 }
-
+h3{
+    padding:20px;
+    text-decoration: underline;
+}
 

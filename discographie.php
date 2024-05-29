@@ -17,7 +17,7 @@
             </a>
         </div>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
+            <!-- <li><a href="index.php">Accueil</a></li> -->
             <li><a href="album-in-utero.php">Nirvana in utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
             <li><a href="clip-video.php">video</a></li>
@@ -33,7 +33,7 @@
                 <div class="photo4">
                     <div class="image-text">
                         <img src="images/incesticide.jpg"alt="image">
-                        <p>
+                        <p> 
                             Sortie	14 décembre 1992
                             Enregistré	1988-1991
                             Durée	44:44
@@ -65,7 +65,7 @@
                             Sortie	1er novembre 1994 (CD)
                             20 novembre 2007 (DVD)
                             Enregistré	18 novembre 1993
-                            Studios Sony Music, New York Drapeau des États-Unis États-Unis
+                            Studios Sony Music, New York États-Unis
                             Durée	53:50
                             Genre	Rock alternatif
                         </p>
@@ -76,7 +76,7 @@
                             Sortie	 13 septembre 1993
                             21 septembre 1993
                             Enregistré	13-26 février 1993
-                            Studio Pachyderm, Cannon Falls (Minnesota), Drapeau des États-Unis États-Unis
+                            Studio Pachyderm, Cannon Falls (Minnesota), États-Unis
                             Durée	41:11
                             Genre	Grunge, rock altern
                         </p>
@@ -87,7 +87,7 @@
                             Sortie	15 juin 1989
                             Enregistré	24, 29, 30 et 31 décembre 1988
                             14 et 24 janvier 1989
-                            Reciprocal Recording, Seattle Drapeau des États-Unis États-Unis
+                            Reciprocal Recording, Seattle États-Unis
                             Durée	42:38
                             Genre	Grunge, Rock indépendant, Punk Rock
                         </p>
@@ -99,6 +99,7 @@
             <section class="formulaire">
                 <div class="container-formulaire">
                     <form action="traitement.php" method="post">
+                        <h3>Enquette sur temps d'écoute de musique</h3>
                         <label for="nom">Nom :</label><br>
                         <input type="text" id="nom" name="nom"><br>
 
@@ -125,6 +126,7 @@
         </div>
     </main>
     <footer class="blanc">
+        <img class="ecole"src="images/école atypique.jpg"alt="images/école atypique.jpg">
         <p>
             © 2024 Site-crée-par-Dutisseuil-Yannick
         </p>

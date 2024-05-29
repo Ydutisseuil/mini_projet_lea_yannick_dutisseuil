@@ -17,7 +17,7 @@
             </a>
         </div>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
+            <!-- <li><a href="index.php">Accueil</a></li> -->
             <li><a href="album-in-utero.php">Nirvana in Utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
             <li><a href="clip-video.php">video</a></li>
@@ -158,6 +158,7 @@
         </section>
     </main>
     <footer>
+        <img class="ecole"src="images/école atypique.jpg"alt="images/école atypique.jpg">
         <p>
             © 2024 Site-crée-par-Dutisseuil-Yannick
         </p>

@@ -14,7 +14,7 @@ $mot_de_passe, $base_de_donnees);
 if (!$connexion) { 
      die("Échec de la connexion : " . mysqli_connect_error());
 } else {
-    echo "Connexion réussie à la base de données.";
+   // echo "Connexion réussie à la base de données.";
 } 
 
 // Exécuter une requête SELECT
@@ -23,7 +23,7 @@ $resultat = mysqli_query($connexion, $sql);
 
 // Vérifier si la requête a réussi 
   if ($resultat) {
-     print_r($resultat); 
+    // print_r($resultat); 
 } else { 
     echo "Erreur : " . mysqli_error($connexion);
  } 
@@ -50,7 +50,7 @@ mysqli_close($connexion);
                 </a>
         </div>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
+            <!-- <li><a href="index.php">Accueil</a></li> -->
             <li><a href="album-in-utero.php">Nirvana in utero</a></li>
             <li><a href="album-bleach.php">Nirvana Bleach</a></li>
             <li><a href="clip-video.php">video</a></li>
@@ -101,6 +101,7 @@ mysqli_close($connexion);
         </section1>
     </main>
     <footer class="blanc">
+        <img class="ecole"src="images/école atypique.jpg"alt="images/école atypique.jpg">
         <p>
             © 2024 Site-crée-par-Dutisseuil-Yannick
         </p>
