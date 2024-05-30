@@ -35,7 +35,7 @@ VALUES ('$nom', '$prenom', '$email', '$temps_ecoute')";
 // Exécution de la requête d'insertion
 mysqli_query($connexion,$sql);
 }
-header("Location: discographie.php")
+header("Location: discographie.php");
 
 
 // Fermer la connexion

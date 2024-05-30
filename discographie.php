@@ -118,7 +118,6 @@
                             <option value="-1h_par_jours">-1h par jour</option>
                             <option value="-1h_par_semaine">-1h par semaine</option>
                         </select>
-                        
                         <input type="submit" value="Envoyer">
                     </form>
                 </div>
